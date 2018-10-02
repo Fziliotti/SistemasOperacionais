@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 void rotina(int p){
-    printf("Nao vou termianar!");
+    printf("Nao vou terminar!");
     sleep(2);
 }
 
@@ -21,7 +21,6 @@ main(){
         printf("%d \n", i++);
     }
 }
-
 
 // PARA ENVIAR UM SINAL PRO PROCESSO, TEMOS QUE VER O PID DO PROCESSO
 // POSSO USAR O COMANDO "KILL -SIGINT 4589" EM QUE 4589 É O PID DO PROCESSO POR EXEMPLO
